@@ -98,10 +98,10 @@ ans :<br>
 
 13.What is the purpose of the MIN function in Excel?<br>
 
-ans : <br>
-1.the purpose of MIN function is to find the lowest number in a range.
-2.it will gives minimum value from dataset.
-3.this function ignores cells with text, its work cells with a numbers.
+ans :<br>
+1.the purpose of MIN function is to find the lowest number in a range.<BR>
+2.it will gives minimum value from dataset.<BR>
+3.this function ignores cells with text, its work cells with a numbers.<BR>
 4.we can use this function like this =MIN("select range") <br>
 
 14.How can you use the IF function to create a simple logical test?<br>
@@ -146,8 +146,10 @@ ans :<br>
 ANS: <br>
 1.Returns a specified number of characters from the beginning of a text string.
 2.in this chosen number has to be greater than 0 and is set to 1 by default.
-3.=LEFT(cell) if we want the function on single cell we can write.
-4.=LEFT(start cell:end cell) If you want to use the function on a range of cells.
+3.if we want the function on single cell we can write.
+	=LEFT(cell)
+4.If you want to use the function on a range of cells.
+	=LEFT(start cell:end cell)
 5.example
 
 
@@ -160,8 +162,10 @@ ANS: <br>
 ans :<br>
 1.Returns a specified number of characters from the end of a text string.<br>
 2.It is typed =RIGHT <br>
-3.If you want to use the function on a single cell, write:=RIGHT(cell).<br>
-4.If you want to use the function on a range of cells, write:=RIGHT(start cell:end cell).<br>
+3.If you want to use the function on a single cell, write:
+	=RIGHT(cell).<br>
+4.If you want to use the function on a range of cells, write:
+	=RIGHT(start cell:end cell).<br>
  
 5.example: 
 
@@ -187,8 +191,8 @@ ans:
 
 
 19.How can you use the VLOOKUP function to search for data in a table?
-ans :
-1.VLOOKUP is a function in spreadsheet software, like Microsoft Excel or Google Sheets, used to search for a specific value in a table or range and return a corresponding value from another column.
+ans :<br
+1.VLOOKUP is a function in spreadsheet software, like Microsoft Excel or Google Sheets, used to search for a specific value in a table or range and return a corresponding value from another column.<br>
 
 2.The full form of VLOOKUP is "Vertical Lookup." It's called "vertical" because it searches for a value vertically in a specific column within a table or range of data and retrieves a corresponding value from a different column within the same row. VLOOKUP is a commonly used function in spreadsheet software like Microsoft Excel and Google Sheets for tasks involving data lookup and retrieval.
 
@@ -204,14 +208,17 @@ ans :
 
 
 4.Example
- 	step 1:=VLOOKUP(102, A2:C5, 3, FALSE)
- 	step 2: here,lookup value is 102 A2:C5 is the table_array containing the data.3 is the col_index_num to retrieve the department.FALSE indicates an exact match.
+ 	step 1:
 
-20.What does the HLOOKUP function do, and when is it used?
-ans: 
-1.HLOOKUP is a function in spreadsheet software, like Microsoft Excel or Google Sheets, used to search for a specific value in the first row of a table or range and return a corresponding value from a specified row below.
+		=VLOOKUP(102, A2:C5, 3, FALSE)
+ 	
+	step 2: here,lookup value is 102 A2:C5 is the table_array containing the data.3 is the col_index_num to retrieve the department.FALSE indicates an exact match.
 
-2.Full Form: "Horizontal Lookup"
+20.What does the HLOOKUP function do, and when is it used?<br>
+ans: <br>
+1.HLOOKUP is a function in spreadsheet software, like Microsoft Excel or Google Sheets, used to search for a specific value in the first row of a table or range and return a corresponding value from a specified row below.<br>
+
+2.Full Form: "Horizontal Lookup".
 3.Definition: HLOOKUP searches for a value in the first row of a table and returns a corresponding value from a specified row, moving horizontally across the table.
 
 3.syntax : 
