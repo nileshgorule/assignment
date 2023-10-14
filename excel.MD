@@ -82,10 +82,11 @@ ans : in the excel there premade function  called as =MIN() which is finds the l
 
 ans : 
 
-step 1 : select blank cell  from sheet.
-step 2 : type =COUNT
-step 3 : open opning paranthesis(,and select range A1:A5 and  click on closing paranthesis ).
-step 4 : click on enter.
+step 1 : select blank cell  from sheet.<br>
+step 2 : type =COUNT <br>
+step 3 : open opning paranthesis(,and select range A1:A5 and  click on closing paranthesis ).<br>
+step 4 : click on enter. <br>
+ 
 
 12. What does the MAX function do, and how do you use it?
 
