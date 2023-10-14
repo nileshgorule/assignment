@@ -33,7 +33,7 @@ step 1: <br>
 
 2.step 2: example
 
-=AVERAGE(C2:C4)
+	=AVERAGE(C2:C4)
 
 6.What is the SUM function used for in Excel? <br>
 ans : <br>
@@ -41,7 +41,7 @@ ans : <br>
 e.g =SUM( in a blank cell Select this series of numbers and close the brackets)<br>
 
 
-=Sum(A1:A5) it will  goes =sum(A1,A2,A3,A4,A5)
+	=Sum(A1:A5) it will  goes =sum(A1,A2,A3,A4,A5)
 
 
 7.How do you use the SUM function to add a range of numbers?<br>
@@ -62,11 +62,8 @@ ans :<br>
 
 3.example < br>
 
-
  	=Average (“select data cells”)
 	=average(c1:c4)
-
-
 
 9.How do you find the highest value in a range of cells using a function? <br>
 ans : <br> 
@@ -81,10 +78,10 @@ in the excel there premade function  called as =MIN() which is finds the lowest 
 
 ans :
 
-step 1 : select blank cell  from sheet.
-step 2 : type =COUNT 
-step 3 : open opning paranthesis(,and select range A1:A5 and  click on closing paranthesis ).
-step 4 : click on enter.
+	step 1 : select blank cell  from sheet.
+	step 2 : type =COUNT 
+	step 3 : open opning paranthesis(,and select range A1:A5 and  click on closing paranthesis ).
+	step 4 : click on enter.
  
 
 12.What does the MAX function do, and how do you use it?
@@ -111,7 +108,7 @@ ans : <br>
  
 ans:<br> 
 1.if function in excel is alerady  define we need to write IF() function with given syntax and the syntax is:
-=IF(logical_test,[value_if_ture],[value_if_false])
+	=IF(logical_test,[value_if_ture],[value_if_false])
 2.with the above given syntax we can use IF function in following steps:
 
 	- select the cell
@@ -127,11 +124,10 @@ ans:<br>
 ans :<br> 
 1.In the excel the CONCAT function is use to link/ attached multiple cells without adding any delimiters between the combined cell values. 
 2.it is typed as =CONCAT
-3.syntax :<br>  =CONCAT(cell1, delimiter, cell2)
+3.syntax :<br> 
+	 =CONCAT(cell1, delimiter, cell2)
 4.with the above  given syntax we can use CONCAT function.
 5.steps:
-
-
 	-select BLANK celL
 	- type =CONCAT("select cell"),
 	- add a comma(,)
@@ -204,8 +200,8 @@ ans :
 
 
 4.Example
- step 1:=VLOOKUP(102, A2:C5, 3, FALSE)
- step 2: here,lookup value is 102 A2:C5 is the table_array containing the data.3 is the col_index_num to retrieve the department.FALSE indicates an exact match.
+ 	step 1:=VLOOKUP(102, A2:C5, 3, FALSE)
+ 	step 2: here,lookup value is 102 A2:C5 is the table_array containing the data.3 is the col_index_num to retrieve the department.FALSE indicates an exact match.
 
 20.What does the HLOOKUP function do, and when is it used?
 ans: 
@@ -216,14 +212,15 @@ ans:
 
 3.syntax : 
 
-=HLOOKUP(lookup_value, table_array, row_index_num, [range_lookup])
+	=HLOOKUP(lookup_value, table_array, row_index_num, [range_lookup])
 
 4.HLOOKUP used when you want to search for a value in the top row of a table or an array of values,and then return a value in the same  column from row you specify in the table or array.
 
 21.Explain the function of the DATE function in Excel.
 ans: 
 1.Returns the serial number of a particular date
-2.Syntax:=DATE(year,month,day).
+2.Syntax:
+	=DATE(year,month,day).
 3.example:
 
 	=DATE("select year",month,day)
@@ -247,11 +244,12 @@ STEP 3: press enter . the value in the cell will update to the current date and 
 ans: 
 1.The purpose of TEXT function is to converts a value to text using specified  format.
 
-2.syntax : TEXT(value,format_text) ,
+2.syntax :
+	=TEXT(value,format_text) ,
 
 3.Example:
 
- =TEXT(NOW(), "dd-mmm-yyyy") returns the current date in the format "07-Oct-2023."
+	=TEXT(NOW(), "dd-mmm-yyyy") returns the current date in the format "07-Oct-2023."
 
 24.How do you use the SUMIF function to sum values based on a condition?
 
@@ -259,7 +257,8 @@ ans:
 1.The SUMIF function is a predefine function in Excel, which calculates the sum of values in a range based on a true or false condition.
 
 2.It is typed =SUMIF:
-3.syntax: =SUMIF(range, criteria, [sum_range])
+3.syntax:
+	 =SUMIF(range, criteria, [sum_range])
 4.steps to used: 
 	
 	
@@ -282,8 +281,7 @@ ans:
 3.it is used when the you want to count the number of cells in a range that are greater than a certain value, or that contain a specific word or phrase.   
 4.syntax :
 
-
-=COUNTIF(range, criteria)
+	=COUNTIF(range, criteria)
 
 26.Explain the function of the AVERAGEIF function in Excel.
 ans: 
@@ -293,14 +291,14 @@ ans:
 3.syntax : 
 
 
-=AVERAGEIF(range, criteria, [average_range])
+	=AVERAGEIF(range, criteria, [average_range])
 
 
 27.How can you use the IFERROR function to handle errors in Excel?
 ans:
 1.this function is used to trap  and handles the errors while using  a formula(such as dividing something by "0").this function is very useful to excel user.
 2.to use this function the syntax is:
-=IFERROR(value, value_if_error)
+	=IFERROR(value, value_if_error)
 3.example:
 	
 	
@@ -322,7 +320,8 @@ number :The number that you want to round.
 
 num_digits:The number of digits to which you want to round the number argument.
 
-3.example =ROUND(2.15, 1)
+3.example :
+	=ROUND(2.15, 1)
 
 Rounds 2.15 to one decimal place
 
@@ -332,13 +331,12 @@ result is 2.2
 ans:
 1.syntax:
  
- 
-  =CONCAT(cell1, delimiter, cell2)
+	=CONCAT(cell1, delimiter, cell2)
 2.with the above  given syntax we can use CONCAT function.
 3.
 
 	- select BLANK celL
-	- type =CONCAT("select cell",
+	- type =CONCAT("select cell"),
 	- add a comma(,)
 	- FOR SPACE we can add quatation marks to create a delimeter(" ")
 	- select another cell =CONCAT("select cells","another cell")
@@ -354,12 +352,12 @@ It is typed =AND and takes two or more conditions.
 
 
 
-=AND([logical1], [logical2], ...)
+	=AND([logical1], [logical2], ...)
 
 
 2.The OR function is a premade function in Excel, which returns TRUE or FALSE based on two or more conditions.
 
-=OR([logical1], [logical2], ...)
+	=OR([logical1], [logical2], ...)
 
 there is no difference but it will check the  based on truth table.
 
