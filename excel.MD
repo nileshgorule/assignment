@@ -48,8 +48,10 @@ e.g =SUM( in a blank cell Select this series of numbers and close the brackets)<
 step 1:
 in excel cell type =SUM followed by opening paranthesis (.<br>
 step 2 :
-enter a first formula range, called as argument. we can type there =sum(A1:A5) or select cell A1 and drag through cell A5.
-<br>
+enter a first formula range, called as argument. we can type there,
+	
+	=sum(A1:A5) or select cell A1 and drag through cell A5.
+
 we can separate the  first arguments from next using comma (,). <br>
 at the last closed paranthesis ). and Enter.
 
@@ -67,12 +69,12 @@ ans :<br>
 
 9.How do you find the highest value in a range of cells using a function? <br>
 ans : <br> 
-in excel we have already predifine function =MAX(c1:c4) which finds highest value in a range.
+in excel we have already predifine function <bold> =MAX(c1:c4) </bold> which finds highest value in a range.
 
 10.What function can you use to find the lowest value in a range of cells? <br>
 
 ans : <br> 
-in the excel there premade function  called as =MIN() which is finds the lowest value in the range.
+in the excel there premade function  called as  <bold> =MIN() </bold> which is finds the lowest value in the range.
 
 11.How do you use the COUNT function to count the number of cells in a range that contain numbers? <br> 
 
@@ -102,7 +104,9 @@ ans :<br>
 1.the purpose of MIN function is to find the lowest number in a range.<BR>
 2.it will gives minimum value from dataset.<BR>
 3.this function ignores cells with text, its work cells with a numbers.<BR>
-4.we can use this function like this =MIN("select range") <br>
+4.we can use this function like this 
+
+	=MIN("select range")
 
 14.How can you use the IF function to create a simple logical test?<br>
  
@@ -163,8 +167,11 @@ ans :<br>
 1.Returns a specified number of characters from the end of a text string.<br>
 2.It is typed =RIGHT <br>
 3.If you want to use the function on a single cell, write:
+	
 	=RIGHT(cell).<br>
+
 4.If you want to use the function on a range of cells, write:
+
 	=RIGHT(start cell:end cell).<br>
  
 5.example: 
@@ -190,8 +197,8 @@ ans:
 	- enter.
 
 
-19.How can you use the VLOOKUP function to search for data in a table?
-ans :<br
+19.How can you use the VLOOKUP function to search for data in a table?<br>
+ans :<br>
 1.VLOOKUP is a function in spreadsheet software, like Microsoft Excel or Google Sheets, used to search for a specific value in a table or range and return a corresponding value from another column.<br>
 
 2.The full form of VLOOKUP is "Vertical Lookup." It's called "vertical" because it searches for a value vertically in a specific column within a table or range of data and retrieves a corresponding value from a different column within the same row. VLOOKUP is a commonly used function in spreadsheet software like Microsoft Excel and Google Sheets for tasks involving data lookup and retrieval.
@@ -212,7 +219,8 @@ ans :<br
 
 		=VLOOKUP(102, A2:C5, 3, FALSE)
  	
-	step 2: here,lookup value is 102 A2:C5 is the table_array containing the data.3 is the col_index_num to retrieve the department.FALSE indicates an exact match.
+	step 2:here,lookup value is --> 102 A2:C5 is the table_array containing the data.
+	3 --> is the col_index_num to retrieve the department.FALSE indicates an exact match.
 
 20.What does the HLOOKUP function do, and when is it used?<br>
 ans: <br>
@@ -227,11 +235,13 @@ ans: <br>
 
 4.HLOOKUP used when you want to search for a value in the top row of a table or an array of values,and then return a value in the same  column from row you specify in the table or array.
 
-21.Explain the function of the DATE function in Excel.
-ans: 
+21.Explain the function of the DATE function in Excel?<br>
+ans: <br>
 1.Returns the serial number of a particular date
 2.Syntax:
+
 	=DATE(year,month,day).
+
 3.example:
 
 	=DATE("select year",month,day)
@@ -244,32 +254,35 @@ ans:
 
 1.to used the now function in excel to display the current date and time,you can follow below steps:
 
-step 1: select the cell you want to display the current date and time.
-
-step 2: FORMULA : NOW().	
-STEP 3: press enter . the value in the cell will update to the current date and time.
+	-step 1: select the cell you want to display the current date and time.
+	-step 2: FORMULA : NOW().	
+	-step 3: press enter . 
+	-the value in the cell will update to the current date and time.
 
 2.now function does not take any arguments.
 
-23.What is the purpose of the TEXT function in Excel?
-ans: 
+23.What is the purpose of the TEXT function in Excel?<br>
+ans: <br>
 1.The purpose of TEXT function is to converts a value to text using specified  format.
 
 2.syntax :
+
 	=TEXT(value,format_text) ,
 
 3.Example:
 
 	=TEXT(NOW(), "dd-mmm-yyyy") returns the current date in the format "07-Oct-2023."
 
-24.How do you use the SUMIF function to sum values based on a condition?
+24.How do you use the SUMIF function to sum values based on a condition?<br>
 
-ans: 
+ans: <br>
 1.The SUMIF function is a predefine function in Excel, which calculates the sum of values in a range based on a true or false condition.
 
 2.It is typed =SUMIF:
 3.syntax:
-	 =SUMIF(range, criteria, [sum_range])
+
+	=SUMIF(range, criteria, [sum_range])
+
 4.steps to used: 
 	
 	
@@ -285,17 +298,20 @@ ans:
 
 If not specified, the function calculates the sum of the same range as the condition.
 
-25.What is the COUNTIF function, and when is it used?
-ans: 
+25.What is the COUNTIF function, and when is it used?<br>
+ans: <br>
 1.COUNTIF function is the function which counts cells as specified.
-2.it is type as:=COUNTIF()
+2.it is type as:
+
+	=COUNTIF()
+
 3.it is used when the you want to count the number of cells in a range that are greater than a certain value, or that contain a specific word or phrase.   
 4.syntax :
 
 	=COUNTIF(range, criteria)
 
-26.Explain the function of the AVERAGEIF function in Excel.
-ans: 
+26.Explain the function of the AVERAGEIF function in Excel.<br>
+ans:<br> 
 1.the AVERAGEIF function,which calculates the average of a range based on a true or false condition.
 
 2.It is typed =AVERAGEIF 
@@ -305,11 +321,13 @@ ans:
 	=AVERAGEIF(range, criteria, [average_range])
 
 
-27.How can you use the IFERROR function to handle errors in Excel?
-ans:
+27.How can you use the IFERROR function to handle errors in Excel? <br>
+ans:<br>
 1.this function is used to trap  and handles the errors while using  a formula(such as dividing something by "0").this function is very useful to excel user.
 2.to use this function the syntax is:
+
 	=IFERROR(value, value_if_error)
+
 3.example:
 	
 	
@@ -319,30 +337,35 @@ ans:
  
  
  
- 4.if A1:35 and B2:7  it will not give any error but we change value of B2:0 error will occur.
+4.if A1:35 and B2:7  it will not give any error but we change value of B2:0 error will occur.
 
-28.What is the purpose of the ROUND function, and how do you use it?
+28.What is the purpose of the ROUND function, and how do you use it? <br>
 
-ans:
+ans:<br>
 1.The ROUND function rounds a number to a specified number of digits.
 
-2.ROUND(number, num_digits)
+2.syntax :
+
+	=ROUND(number, num_digits)
+
 number :The number that you want to round.
 
 num_digits:The number of digits to which you want to round the number argument.
 
 3.example :
+
 	=ROUND(2.15, 1)
 
 Rounds 2.15 to one decimal place
 
 result is 2.2
 
-29.How do you use the CONCATENATE function to join text from multiple cells?
-ans:
+29.How do you use the CONCATENATE function to join text from multiple cells?<br>
+ans:<br>
 1.syntax:
  
 	=CONCAT(cell1, delimiter, cell2)
+
 2.with the above  given syntax we can use CONCAT function.
 3.
 
@@ -356,8 +379,8 @@ ans:
 
 4.with the above steps we can used CONCATENATION to combining multiple cells/
 
-30.What is the difference between the AND and OR functions in Excel?
-ans:
+30.What is the difference between the AND and OR functions in Excel?<br>
+ans:<br>
 1.The AND function is a premade function in Excel, which returns TRUE or FALSE based on two or more conditions.
 It is typed =AND and takes two or more conditions.
 
