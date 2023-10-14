@@ -1,36 +1,34 @@
-1.What is a function in Excel?
- 
-ans : 
+1.What is a function in Excel?<br>
+ ans : <br> 
 1.In excel there is already predefine formulas that we can perform
-some specific  caluclation using values, called arguments in a particular syntax or structure. 
-
-2.In most used functions is SUM,COUNT,CONCATENATE,AVERAGE,IF,LEN,VLOOKUP,HLOOKUP,MAX EAND MANY MORE....
+some specific  caluclation using values, called arguments in a particular syntax or structure.<br>
+  
+2.In most used functions is SUM,COUNT,CONCATENATE,AVERAGE,IF,LEN,VLOOKUP,HLOOKUP,MAX EAND MANY MORE....<br>
  
-2. How do you start a function in Excel?
-
-ANS :
+ 
+2. How do you start a function in Excel?<br>
+ANS :<br>
 STEP 1 :
-first i will add some data in excel sheet then perform.
-
-STEP 2 : formulas are always starts with an sign(=).
-
-STEP 3 : EXAMPLE 
-
+first i will add some data in excel sheet then perform.<br>
+ 
+STEP 2 : formulas are always starts with an sign(=).<br>
+ 
+STEP 3 : EXAMPLE <br>
 HERE I will be used average function so that we need to type 
 
 =AVERAGE(C2:C4)
 
-3.What is the purpose of using functions in Excel?
-
+3.What is the purpose of using functions in Excel?<br>
+ 
 in excel we can put larger data and then we need to see some persons data or employee data or else in hospital there are larger data so we cannot look entire excel sheet so that we can perform there functions that will help to get data, calculate employees salary or  in see hospital patient names etc.
 so,  in that case we can perform function and get emplyee data or petient data.
 
-4.What is the difference between a function and a formula in Excel? 
-
-1. functions are predefine calculation that perform particular or specific operation,based on specified arguments and values,functions is already available in excel that can we insert into a formula.
-
-2. formula is that expression that we caluculate values in cell or range of cells defining by the user .
-
+4.What is the difference between a function and a formula in Excel? <br>
+ 
+1. functions are predefine calculation that perform particular or specific operation,based on specified arguments and values,functions is already available in excel that can we insert into a formula.<br>
+ 
+2. formula is that expression that we caluculate values in cell or range of cells defining by the user .<br>
+ 
 5. How can you enter a function manually in a cell?
 
 step 1:
