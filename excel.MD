@@ -62,7 +62,7 @@ ans :<br>
 
 2.it is type as =AVERAGE <br>
 
-3.example < br>
+3.example 
 
  	=Average (“select data cells”)
 	=average(c1:c4)
@@ -86,12 +86,12 @@ ans :
 	step 4 : click on enter.
  
 
-12.What does the MAX function do, and how do you use it?
+12.What does the MAX function do, and how do you use it?<br>
 
 ans :<br>
-1.MAX function is the statistical function that returns the largest value in a dataset of values.
-2.this function can take multiple arguments such as,numbers, ranges.
-3.if the values are strings the function will compare them alphabetically.
+1.MAX function is the statistical function that returns the largest value in a dataset of values.<br>
+2.this function can take multiple arguments such as,numbers, ranges.<br>
+3.if the values are strings the function will compare them alphabetically.<br>
 4.we can max function with help of following steps:
 
 	-first select blank cell 
@@ -112,7 +112,10 @@ ans :<br>
  
 ans:<br> 
 1.if function in excel is alerady  define we need to write IF() function with given syntax and the syntax is:
+
 	=IF(logical_test,[value_if_ture],[value_if_false])
+
+<br>
 2.with the above given syntax we can use IF function in following steps:
 
 	- select the cell
@@ -123,11 +126,11 @@ ans:<br>
 	- click on enter etc.
 
 <br>
-15.What does the CONCATENATE function do, and how is it used?
+15.What does the CONCATENATE function do, and how is it used?<br>
 
 ans :<br> 
-1.In the excel the CONCAT function is use to link/ attached multiple cells without adding any delimiters between the combined cell values. 
-2.it is typed as =CONCAT
+1.In the excel the CONCAT function is use to link/ attached multiple cells without adding any delimiters between the combined cell values. <br>
+2.it is typed as =CONCAT <br>
 3.syntax :
 
 	=CONCAT(cell1, delimiter, cell2)
@@ -148,12 +151,16 @@ ans :<br>
 16.Explain the function of the LEFT function in Excel.<br>
 
 ANS: <br>
-1.Returns a specified number of characters from the beginning of a text string.
-2.in this chosen number has to be greater than 0 and is set to 1 by default.
-3.if we want the function on single cell we can write.
+1.Returns a specified number of characters from the beginning of a text string.<br>
+2.in this chosen number has to be greater than 0 and is set to 1 by default.<br>
+3.if we want the function on single cell we can write.<br>
+
 	=LEFT(cell)
+
 4.If you want to use the function on a range of cells.
+
 	=LEFT(start cell:end cell)
+
 5.example
 
 
@@ -237,7 +244,7 @@ ans: <br>
 
 21.Explain the function of the DATE function in Excel?<br>
 ans: <br>
-1.Returns the serial number of a particular date
+1.Returns the serial number of a particular date. <br>
 2.Syntax:
 
 	=DATE(year,month,day).
@@ -249,8 +256,8 @@ ans: <br>
 
 4.ENTER.
 
-22.How do you use the NOW function to display the current date and time?
-ans:
+22.How do you use the NOW function to display the current date and time?<br>
+ans:<br>
 
 1.to used the now function in excel to display the current date and time,you can follow below steps:
 
@@ -377,7 +384,7 @@ ans:<br>
 	- click on enter.
 
 
-4.with the above steps we can used CONCATENATION to combining multiple cells/
+4.with the above steps we can used CONCATENATION to combining multiple cells.
 
 30.What is the difference between the AND and OR functions in Excel?<br>
 ans:<br>
