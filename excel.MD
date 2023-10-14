@@ -125,7 +125,7 @@ ans :<br>
 1.In the excel the CONCAT function is use to link/ attached multiple cells without adding any delimiters between the combined cell values. 
 2.it is typed as =CONCAT
 3.syntax :<br> 
-	 =CONCAT(cell1, delimiter, cell2)
+	=CONCAT(cell1, delimiter, cell2)
 4.with the above  given syntax we can use CONCAT function.
 5.steps:
 	-select BLANK celL
