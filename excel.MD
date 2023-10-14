@@ -157,7 +157,7 @@ ans :
 3.If you want to use the function on a single cell, write:=RIGHT(cell).<br>
 4.If you want to use the function on a range of cells, write:=RIGHT(start cell:end cell).<br>
  
-5.example:
+5.<br> example:
 	- Select a cell E2
 	- Type =RIGHT and the open prarenthesis(.
 	- select cell =RIGHT(A2) for single cell
