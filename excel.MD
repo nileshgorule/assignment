@@ -105,9 +105,9 @@ ans :
 1. the purpose of MIN function is to find the lowest number in a range.
 2. it will gives minimum value from dataset.
 3. this function ignores cells with text, its work cells with a numbers.
-4. we can use this function like this =MIN("select range")
+4. we can use this function like this =MIN("select range") <br>
 
-14. How can you use the IF function to create a simple logical test?
+14.How can you use the IF function to create a simple logical test?
  
 ans:  
 1. if function in excel is alerady  define we need to write IF() function with given syntax and the syntax is:
