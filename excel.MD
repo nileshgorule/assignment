@@ -14,7 +14,9 @@ STEP 2:formulas are always starts with an sign(=).<br>
 STEP 3:EXAMPLE <br>
 HERE I will be used average function so that we need to type 
 
+
 =AVERAGE(C2:C4)
+
 
 3.What is the purpose of using functions in Excel?<br>
  
@@ -32,6 +34,7 @@ step 1: <br>
 1.first put equal sign(=) then write function name that you want to perform and select or write address of a cell for example<br>
 
 2.step 2: example
+
 =AVERAGE(C2:C4)
 
 6.What is the SUM function used for in Excel? <br>
@@ -39,7 +42,9 @@ ans : <br>
 1.sum fucntion in excel is used to calculate or add sum a series of numbers in a range.<br>
 e.g =SUM( in a blank cell Select this series of numbers and close the brackets)<br>
 
+
 =Sum(A1:A5) it will  goes =sum(A1,A2,A3,A4,A5)
+
 
 7.How do you use the SUM function to add a range of numbers?<br>
 step 1:
@@ -58,8 +63,12 @@ ans :<br>
 2.it is type as =AVERAGE <br>
 
 3.example < br>
+
+
  	=Average (“select data cells”)
 	=average(c1:c4)
+
+
 
 9.How do you find the highest value in a range of cells using a function? <br>
 ans : <br> 
@@ -124,8 +133,9 @@ ans :<br>
 4.with the above  given syntax we can use CONCAT function.
 5.steps:
 
+
 	-select BLANK celL
-	- type =CONCAT("select cell",
+	- type =CONCAT("select cell"),
 	- add a comma(,)
 	- FOR SPACE we can add quatation marks to create a delimeter(" ")
 	- select another cell =CONCAT("select cells","another cell")
@@ -155,7 +165,9 @@ ans :<br>
 3.If you want to use the function on a single cell, write:=RIGHT(cell).<br>
 4.If you want to use the function on a range of cells, write:=RIGHT(start cell:end cell).<br>
  
-5.example: <br>
+5.example: 
+
+
 	- Select a cell E2
 	- Type =RIGHT and the open prarenthesis(.
 	- select cell =RIGHT(A2) for single cell
@@ -167,12 +179,14 @@ ans :<br>
 ans:
 1.Returns the length (number of characters) of a text string.<br>
  
-2.steps to used: <br>
+2.steps to used:
+
  
 	- select cell
 	- type =LEN("nilesh") it will returns 6, as there are 	   
 	  characters are in excel
 	- enter.
+
 
 19.How can you use the VLOOKUP function to search for data in a table?
 ans :
@@ -181,11 +195,16 @@ ans :
 2.The full form of VLOOKUP is "Vertical Lookup." It's called "vertical" because it searches for a value vertically in a specific column within a table or range of data and retrieves a corresponding value from a different column within the same row. VLOOKUP is a commonly used function in spreadsheet software like Microsoft Excel and Google Sheets for tasks involving data lookup and retrieval.
 
 3.syntax:
-=VLOOKUP(lookup_value, table_array, col_index_num, [range_lookup])
+
+
+	=VLOOKUP(lookup_value, table_array, col_index_num, [range_lookup])
 	- "lookup value":The value you want to find in the first column of the table_array.
 	- "table array":The range of cells that contains the data you want to search in.
 	- "col_index_num":The column number from which you want to retrieve the result (the first column in the table_array is 1, the second column is 2, and so on).
 	- "[range_lookup]":This parameter is optional. If set to TRUE (or omitted), it assumes an approximate match and looks for the closest match. If set to FALSE, 	   it searches for an exact match.
+
+
+
 4.Example
  step 1:=VLOOKUP(102, A2:C5, 3, FALSE)
  step 2: here,lookup value is 102 A2:C5 is the table_array containing the data.3 is the col_index_num to retrieve the department.FALSE indicates an exact match.
@@ -197,17 +216,21 @@ ans:
 2.Full Form: "Horizontal Lookup"
 3.Definition: HLOOKUP searches for a value in the first row of a table and returns a corresponding value from a specified row, moving horizontally across the table.
 
-3.syntax : =HLOOKUP(lookup_value, table_array, row_index_num, [range_lookup])
+3.syntax : 
+
+=HLOOKUP(lookup_value, table_array, row_index_num, [range_lookup])
 
 4.HLOOKUP used when you want to search for a value in the top row of a table or an array of values,and then return a value in the same  column from row you specify in the table or array.
-
 
 21.Explain the function of the DATE function in Excel.
 ans: 
 1.Returns the serial number of a particular date
 2.Syntax:=DATE(year,month,day).
 3.example:
+
 	=DATE("select year",month,day)
+
+
 4.ENTER.
 
 22.How do you use the NOW function to display the current date and time?
@@ -228,7 +251,9 @@ ans:
 
 2.syntax : TEXT(value,format_text) ,
 
-3.Example: =TEXT(NOW(), "dd-mmm-yyyy") returns the current date in the format "07-Oct-2023."
+3.Example:
+
+ =TEXT(NOW(), "dd-mmm-yyyy") returns the current date in the format "07-Oct-2023."
 
 24.How do you use the SUMIF function to sum values based on a condition?
 
@@ -238,12 +263,16 @@ ans:
 2.It is typed =SUMIF:
 3.syntax: =SUMIF(range, criteria, [sum_range])
 4.steps to used: 
+	
+	
 	- Select the cell
 	- Type =SUMIF()
 	- Specify the range for the condition like  B2:B10 (the Type 1 values), 
 	- Specify the criteria (the cell E3, which has the value "type value here "),
 	- Specify the range for the sum C2:C10 (the Total values),
 	- Hit enter.
+
+
 5.here The [sum_range] is optional.
 
 If not specified, the function calculates the sum of the same range as the condition.
@@ -253,14 +282,21 @@ ans:
 1.COUNTIF function is the function which counts cells as specified.
 2.it is type as:=COUNTIF()
 3.it is used when the you want to count the number of cells in a range that are greater than a certain value, or that contain a specific word or phrase.   
-4.syntax :=COUNTIF(range, criteria)
+4.syntax :
+
+
+=COUNTIF(range, criteria)
 
 26.Explain the function of the AVERAGEIF function in Excel.
 ans: 
 1.the AVERAGEIF function,which calculates the average of a range based on a true or false condition.
 
 2.It is typed =AVERAGEIF 
-3.syntax : =AVERAGEIF(range, criteria, [average_range])
+3.syntax : 
+
+
+=AVERAGEIF(range, criteria, [average_range])
+
 
 27.How can you use the IFERROR function to handle errors in Excel?
 ans:
@@ -268,9 +304,14 @@ ans:
 2.to use this function the syntax is:
 =IFERROR(value, value_if_error)
 3.example:
+	
+	
 	- select cell
 	- type =IFERROR(A2/B2,"ERROR")
 	- enter.
+ 
+ 
+ 
  4.if A1:35 and B2:7  it will not give any error but we change value of B2:0 error will occur.
 
 28.What is the purpose of the ROUND function, and how do you use it?
@@ -292,23 +333,34 @@ result is 2.2
 29.How do you use the CONCATENATE function to join text from multiple cells?
 ans:
 1.syntax:
+ 
+ 
   =CONCAT(cell1, delimiter, cell2)
-2 with the above  given syntax we can use CONCAT function.
-3	- select BLANK celL
+2.with the above  given syntax we can use CONCAT function.
+3.
+
+	- select BLANK celL
 	- type =CONCAT("select cell",
 	- add a comma(,)
 	- FOR SPACE we can add quatation marks to create a delimeter(" ")
 	- select another cell =CONCAT("select cells","another cell")
 	- click on enter.
-4 with the above steps we can used CONCATENATION to combining multiple cells/
+
+
+4.with the above steps we can used CONCATENATION to combining multiple cells/
 
 30.What is the difference between the AND and OR functions in Excel?
 ans:
 1.The AND function is a premade function in Excel, which returns TRUE or FALSE based on two or more conditions.
 It is typed =AND and takes two or more conditions.
+
+
+
 =AND([logical1], [logical2], ...)
 
+
 2.The OR function is a premade function in Excel, which returns TRUE or FALSE based on two or more conditions.
+
 =OR([logical1], [logical2], ...)
 
 there is no difference but it will check the  based on truth table.
