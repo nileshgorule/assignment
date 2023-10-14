@@ -72,12 +72,12 @@ in the excel there premade function  called as =MIN() which is finds the lowest 
 
 11.How do you use the COUNT function to count the number of cells in a range that contain numbers? <br> 
 
-ans : <br>
+ans :
 
-step 1 : select blank cell  from sheet.<br>
-step 2 : type =COUNT <br>
-step 3 : open opning paranthesis(,and select range A1:A5 and  click on closing paranthesis ).<br>
-step 4 : click on enter. <br>
+step 1 : select blank cell  from sheet.
+step 2 : type =COUNT 
+step 3 : open opning paranthesis(,and select range A1:A5 and  click on closing paranthesis ).
+step 4 : click on enter.
  
 
 12.What does the MAX function do, and how do you use it?
@@ -87,6 +87,7 @@ ans :<br>
 2.this function can take multiple arguments such as,numbers, ranges.
 3.if the values are strings the function will compare them alphabetically.
 4.we can max function with help of following steps:
+
 	-first select blank cell 
 	-type =MAX("select range") 
 	-click on enter 
@@ -121,13 +122,15 @@ ans :<br>
 2.it is typed as =CONCAT
 3.syntax :<br>  =CONCAT(cell1, delimiter, cell2)
 4.with the above  given syntax we can use CONCAT function.
-5.steps:<br>	
+5.steps:
+
 	-select BLANK celL
 	- type =CONCAT("select cell",
 	- add a comma(,)
 	- FOR SPACE we can add quatation marks to create a delimeter(" ")
 	- select another cell =CONCAT("select cells","another cell")
 	- click on enter.
+
 6.with the above steps we can used CONCATENATION.
 
 16.Explain the function of the LEFT function in Excel.<br>
@@ -138,6 +141,8 @@ ANS: <br>
 3.=LEFT(cell) if we want the function on single cell we can write.
 4.=LEFT(start cell:end cell) If you want to use the function on a range of cells.
 5.example
+
+
 	- select cell
 	- type =LEFT(A2)
 	- type =LEFT(A2,3) range
