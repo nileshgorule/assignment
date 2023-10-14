@@ -150,13 +150,14 @@ ANS:
 	- type =LEFT(A2,3) range
 	- enter
 
-17.How do you use the RIGHT function to extract characters from a text string?
+17.How do you use the RIGHT function to extract characters from a text string?<br>
 ans :
-1.Returns a specified number of characters from the end of a text string.
-2.It is typed =RIGHT
-2.If you want to use the function on a single cell, write:=RIGHT(cell).
-3.If you want to use the function on a range of cells, write:=RIGHT(start cell:end cell).
-4.example:
+1.Returns a specified number of characters from the end of a text string.<br>
+2.It is typed =RIGHT <br>
+3.If you want to use the function on a single cell, write:=RIGHT(cell).<br>
+4.If you want to use the function on a range of cells, write:=RIGHT(start cell:end cell).<br>
+ 
+5.example:
 	- Select a cell E2
 	- Type =RIGHT and the open prarenthesis(.
 	- select cell =RIGHT(A2) for single cell
@@ -166,11 +167,13 @@ ans :
 18.What is the purpose of the LEN function, and how do you use it?
 
 ans:
-1.Returns the length (number of characters) of a text string.
-2.steps to used: 
+1.Returns the length (number of characters) of a text string.<br>
+ 
+2.steps to used: <br>
+ 
 	- select cell
 	- type =LEN("nilesh") it will returns 6, as there are 	   
-	  characters are6 in excel
+	  characters are in excel
 	- enter.
 
 19.How can you use the VLOOKUP function to search for data in a table?
