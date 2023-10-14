@@ -14,9 +14,7 @@ STEP 2:formulas are always starts with an sign(=).<br>
 STEP 3:EXAMPLE <br>
 HERE I will be used average function so that we need to type 
 
-
-=AVERAGE(C2:C4)
-
+	=AVERAGE(C2:C4)
 
 3.What is the purpose of using functions in Excel?<br>
  
