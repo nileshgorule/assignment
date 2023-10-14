@@ -36,7 +36,7 @@ ans:<br>
 
 4.How can you create a new repository on GitHub?<br>
 ans :<br>
-1. on to  github.com go to repository and then click on <italic> NEW </italic>.<br>
+1. on to  github.com go to repository and then click on NEW.<br>
 
 2. type the repository name the give some description and after that we can set public or private  if you want readme file  you can  keep it and the create repository.<br>
 
