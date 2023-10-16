@@ -16,23 +16,23 @@ ans:
 To create a bar chart in Tableau, you can follow these steps:
 
 	- Connect to your data source and open a new worksheet.
-	Drag the dimension you want to use for the bars to the 	Columns shelf.
+	Drag the dimension you want to use for the bars to the Columns shelf.
 
-	- Drag the measure you want to use for the bars to the   	Rows shelf.
+	- Drag the measure you want to use for the bars to the Rows shelf.
 
-	- Tableau will automatically create a bar chart with 	horizontal bars.
+	- Tableau will automatically create a bar chart with horizontal bars.
 	
-	- If you want vertical bars, click on the “Show Me” button 	in the top right corner of the screen and select “Vertical 	Bars” from the list of options.
+	- If you want vertical bars, click on the “Show Me” button in the top right corner of the screen and select “Vertical Bars” from the list of options.
 	
-	- You can customize your bar chart by adding labels, 	colors, and other formatting options. 
+	- You can customize your bar chart by adding labels,colors,and other formatting options. 
 
 To create graphs in Tableau:
 	
 	- Open Tableau Desktop and connect to a data source.
 	- Navigate to a new worksheet.
-	- Drag and drop fields from the Data pane onto the cards 	and shelves on the worksheet, or double-click them to add 	them automatically.
-	- Use Show Me to select a chart type that suits your data	 and analysis. You can also use Show Me to change the 	chart type later.
-	- Adjust the fields, colors, labels, and other options as   	needed.
+	- Drag and drop fields from the Data pane onto the cards and shelves on the worksheet, or double-click them to add 	them automatically.
+	- Use Show Me to select a chart type that suits your data and analysis. You can also use Show Me to change the chart type later.
+	- Adjust the fields, colors, labels, and other options as needed.
 
 3.What is a data source in Tableau?
 
@@ -40,7 +40,7 @@ ans:
 
 1.A tabealu data source is the link between your source data and tabeau.
 
-2.it describes the physical source of the data,such as a filename,location, or databases connection.
+2.it describes the physical source of the data,such as a filename,location,or databases connection.
 
 3.it aslo includes the customized and cleanup information,such as calculations,sets,groups,bins,parameter.
 
@@ -109,7 +109,7 @@ To share visualizations in Tableau, you can:
 
 	- Click on "Share" in the top right corner of your visualization.
 
-	- Select a sharing option, such as embedding the 	visualization on a website, sharing it on social media, or emailing a link to the visualization
+	- Select a sharing option, such as embedding the visualization on a website,sharing it on social media, or emailing a link to the visualization
 
 	- Customize the size of the visualization and copy the  code to your website if embedding
 
