@@ -2,7 +2,7 @@ TABLEAU
 
 1.What is Tableau used for?
 
-ans:
+ans:<br>
 1.tabealu is data visualization tool that helps in simplifying  raw data into the very easily  understand format.
 
 2.tabealu is used for data analysis,business intelligence and reporting.
@@ -50,10 +50,9 @@ ans:
 
 ans :
 
-1.A tabealu dashboard is a consolidates display of many worksheet 
- and related inforamtion in a single place.
+1.A tabealu dashboard is a consolidates display of many worksheet and related inforamtion in a single place.
 
-2. it is used to comapre and monitor a variety of data simultaneously.
+2.it is used to comapre and monitor a variety of data simultaneously.
 
 3.Dashboard are a collection of defferent views visualization,where each view showcase a different kind of data at the same time.
 
@@ -97,6 +96,7 @@ Dimensions and measures in Tableau are:
 7.What is the purpose of calculated fields in Tableau?
 
 ans:
+
 1.calcilated fields in tabealu are used to create new feature or columns using calculaton.
 
 2.when you create a calculated  feilds,you are essential creating a new fields in your data source, the values or member or which are determined by a calculation that you control.
@@ -107,13 +107,13 @@ ans:
 
 To share visualizations in Tableau, you can:
 
-	- Click on "Share" in the top right corner of your 	visualization.
+	- Click on "Share" in the top right corner of your visualization.
 
-	- Select a sharing option, such as embedding the 	visualization on a website, sharing it on social media, or 	emailing a link to the visualization
+	- Select a sharing option, such as embedding the 	visualization on a website, sharing it on social media, or emailing a link to the visualization
 
-	- Customize the size of the visualization and copy the  	code to your website if embedding
+	- Customize the size of the visualization and copy the  code to your website if embedding
 
-	- Alternatively, open the Actions menu for the content you 	want to share and click on Share from the list of menu 	items.
+	- Alternatively, open the Actions menu for the content you want to share and click on Share from the list of menu items.
 
 9.What is the difference between Tableau Desktop and Tableau Server?
 
@@ -139,7 +139,8 @@ Tableau uses several different file types, including:
 	
 
 
-		Tableau History Questions:
+		
+Tableau History Questions:
 
 1.When was Tableau Software founded?
 
@@ -169,13 +170,13 @@ which was released in 2003.
 
 ans:
 
-tabealu went public on MAY 17,2013.
+	tableau went public on MAY 17,2013.
 
 5.Which major tech company acquired Tableau in 2019?
 
 ans:
 
-In 2019,Salesforce buys tableau for $15.7 billion.
+	In 2019,Salesforce buys tableau for $15.7 billion.
 
 6.How has Tableau's software evolved since its inception?
 
@@ -205,7 +206,7 @@ ans:
 
 ans:
 
-mountain view ,california.
+	mountain view ,california.
 
 10.What role did the Tableau user community play in its growth?
 
@@ -213,7 +214,7 @@ ans:
 
 1.The community is a network of Tableau users who collaborate, share knowledge, and learn from each other
 
-2. People collaborate with each other and share their product knowledge and business domain experience across a wide range of skill levels and across different teams and departments, who may never have exchanged ideas before.
+2.People collaborate with each other and share their product knowledge and business domain experience across a wide range of skill levels and across different teams and departments, who may never have exchanged ideas before.
 
 
 
