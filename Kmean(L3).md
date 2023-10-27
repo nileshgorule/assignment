@@ -56,7 +56,7 @@ ans:
 
 -step 8:ploting scatter plot to visualized data in the form of chart
 
-	plt.scatter(data[:, 0], data[:, 1], c=labels, cmap='rainbow', marker='o', 	s=100): 
+	plt.scatter(data[:, 0], data[:, 1], c=labels, cmap='rainbow', marker='o',s=100): 
 	
 -step 9:ploting center of each cluster
 
@@ -77,7 +77,7 @@ ans:
 
 ans:
 
-	The scikit-learn library provides a direct implementation of the K-means 	clustering algorithm in Python.
+	The scikit-learn library provides a direct implementation of the K-means clustering algorithm in Python.
 
 5.How can you determine the optimal number of clusters (K) for your dataset?
 
@@ -133,9 +133,9 @@ The algorithm can be computationally expensive on large datasets and high-dimens
 
 9.Given the following code, what will be the number of clusters formed?
 
-from sklearn.cluster import KMeans
-kmeans = KMeans(n_clusters=3)
-kmeans.fit(data) 	
+	from sklearn.cluster import KMeans
+	kmeans = KMeans(n_clusters=3)
+	kmeans.fit(data) 	
 
 ans: 
 
